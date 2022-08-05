@@ -1,3 +1,11 @@
+# Libraries and Tools used in this project
+
+I used Material UI for the Components and styles, and for the API's fetchs I used Axios.
+
+# Deploy with Heroku
+
+There is the link of the deploy: https://factory-four.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
