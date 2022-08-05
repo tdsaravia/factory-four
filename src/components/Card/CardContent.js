@@ -37,12 +37,11 @@ const useStyles = makeStyles({
 
 // Display time HH/MM/SS
 function FormattedTime(time) {
-  var date = new Date(time * 1000);
-  var hours = date.getHours();
-  var minutes = "0" + date.getMinutes();
-  var seconds = "0" + date.getSeconds();
-  
-  var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+  let date = new Date(time);
+  let hours = date.getHours();
+  let minutes = "0" + date.getMinutes();
+  let seconds = "0" + date.getSeconds();
+  let formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
   return formattedTime;
 }
 
